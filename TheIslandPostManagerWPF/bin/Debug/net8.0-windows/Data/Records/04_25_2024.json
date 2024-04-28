@@ -1,0 +1,35 @@
+[
+  {
+    "CustomerID": "147c6b15-ffc9-4625-ae28-58c5aefe447b",
+    "Name": "JOHN DOE",
+    "Email": "N/A",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-25T14:15:58.659415-04:00",
+    "ApprovedImages": [
+      "_JEP5367.JPG",
+      "_JEP5368.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5367.JPG": 4
+    }
+  },
+  {
+    "CustomerID": "492b0c09-5863-4a80-bc83-d535a75f3589",
+    "Name": "Creswell Gould",
+    "Email": null,
+    "PhoneNumber": null,
+    "DateTime": "2024-04-25T20:16:15.9273015-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5367.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG",
+      "_JEP5371.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 5,
+      "_JEP5370.JPG": 5
+    }
+  }
+]

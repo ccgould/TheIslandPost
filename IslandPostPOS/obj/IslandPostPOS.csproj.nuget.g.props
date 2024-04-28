@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\SPV_s\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.9.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\SPV_s\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSyncfusion_Shared_Base Condition=" '$(PkgSyncfusion_Shared_Base)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.shared.base\24.2.9</PkgSyncfusion_Shared_Base>
+    <PkgSyncfusion_Core_WinForms Condition=" '$(PkgSyncfusion_Core_WinForms)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.core.winforms\24.2.9</PkgSyncfusion_Core_WinForms>
+    <PkgSyncfusion_SfListView_WinForms Condition=" '$(PkgSyncfusion_SfListView_WinForms)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.sflistview.winforms\24.2.9</PkgSyncfusion_SfListView_WinForms>
+    <PkgSyncfusion_SfInput_WinForms Condition=" '$(PkgSyncfusion_SfInput_WinForms)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.sfinput.winforms\24.2.9</PkgSyncfusion_SfInput_WinForms>
+    <PkgSyncfusion_SfDataGrid_WinForms Condition=" '$(PkgSyncfusion_SfDataGrid_WinForms)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.sfdatagrid.winforms\24.2.9</PkgSyncfusion_SfDataGrid_WinForms>
+    <PkgSyncfusion_Grid_Windows Condition=" '$(PkgSyncfusion_Grid_Windows)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.grid.windows\24.2.9</PkgSyncfusion_Grid_Windows>
+    <PkgSyncfusion_Grid_Grouping_Windows Condition=" '$(PkgSyncfusion_Grid_Grouping_Windows)' == '' ">C:\Users\SPV_s\.nuget\packages\syncfusion.grid.grouping.windows\24.2.9</PkgSyncfusion_Grid_Grouping_Windows>
+  </PropertyGroup>
+</Project>

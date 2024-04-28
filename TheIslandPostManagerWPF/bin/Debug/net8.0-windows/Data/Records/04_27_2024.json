@@ -1,0 +1,625 @@
+[
+  {
+    "CustomerID": "310244c2-66d0-4fb6-8786-423eeca57836",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yHOO.COM",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T10:02:44.4257746-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "413df854-31d1-4d70-9d61-9adf000c8d60",
+    "Name": "fccf",
+    "Email": "xxx",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T18:49:32.5252199-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "ac85cbf4-0e60-450f-8788-747805c6ad50",
+    "Name": "uui",
+    "Email": "u",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T18:51:10.4522596-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "9fd25693-9a9f-41ce-91c5-b7a00faf2ae0",
+    "Name": "nn",
+    "Email": "klk",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T20:21:49.5559902-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "27b5a6f5-2cc4-4a1e-bf84-ff275be8302c",
+    "Name": "cc",
+    "Email": "cc",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:01:04.182655-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "06b28ecd-9a27-4c66-89ff-7f40333e63c8",
+    "Name": "m",
+    "Email": "k",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:06:10.2967619-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "2d5b07b9-2b00-4735-8945-70a335535175",
+    "Name": "mm",
+    "Email": "mmnm",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:08:22.4004842-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "288788fc-2024-4513-9398-5c70159f2db9",
+    "Name": "7",
+    "Email": "n",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:23:29.0669492-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "1d84390d-0a85-4afd-bf5b-3a993f893205",
+    "Name": "f",
+    "Email": "f",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:24:59.9388524-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "e83aae2b-09ac-41ac-925b-7ccb7166bfcb",
+    "Name": "j",
+    "Email": "n",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:26:45.2533707-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "8d918946-b701-49e4-b473-b69cc330692b",
+    "Name": "f",
+    "Email": "f",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:30:08.4271072-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "a195025b-c7d2-401f-aab1-f7dc421abb7a",
+    "Name": "v",
+    "Email": "v",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:31:43.8249053-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "ffdb14bb-deb9-43e5-a9ff-ae5d0544e0c3",
+    "Name": "f",
+    "Email": "f",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:34:12.4929954-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "6202d071-3acb-4015-9276-82b5502eaf97",
+    "Name": "M",
+    "Email": "N",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:41:19.674057-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "961df898-02e7-40d6-bfec-7ed4d996dc43",
+    "Name": "K",
+    "Email": "J",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:43:45.4630434-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "73330b9e-8aa6-49ed-83b0-590a39c6199a",
+    "Name": "LL",
+    "Email": "M,M",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:52:00.2018712-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "8bdbb719-6516-4a85-a473-51be70e7ac69",
+    "Name": "N",
+    "Email": "N",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:53:26.0221057-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "072cb6d0-d181-417c-a973-94db7fb925e6",
+    "Name": "K",
+    "Email": " N",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:57:00.6665951-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "e5effe87-9b00-4619-8da1-abfb89c4e0c8",
+    "Name": "J",
+    "Email": "H",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T23:57:56.2753221-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "cb5709b3-7e35-448f-89b2-f5cf8cca4784",
+    "Name": "Elsa Doe",
+    "Email": "elsadoe@gould.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T08:13:35.9696616-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5367.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1,
+      "_JEP5367.JPG": 1,
+      "_JEP5368.JPG": 1,
+      "_JEP5369.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "85285cb3-f059-4392-982f-501de9de4024",
+    "Name": "Laterrah Gould",
+    "Email": "N/A",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T08:21:20.8556558-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5367.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG",
+      "_JEP5371.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 2,
+      "_JEP5367.JPG": 1,
+      "_JEP5368.JPG": 1,
+      "_JEP5369.JPG": 1,
+      "_JEP5370.JPG": 1,
+      "_JEP5371.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "23261aae-424e-41ac-82d4-1a951b17e2ec",
+    "Name": "John Doe",
+    "Email": "johndoe@gmail.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T08:33:12.4356443-04:00",
+    "ApprovedImages": [
+      "_JEP5455.JPG",
+      "_JEP5456.JPG",
+      "_JEP5464.JPG",
+      "_JEP5465.JPG",
+      "_JEP5466.JPG",
+      "_JEP5467.JPG",
+      "_JEP5468.JPG",
+      "_JEP5469.JPG",
+      "_JEP5470.JPG",
+      "_JEP5471.JPG",
+      "_JEP5472.JPG",
+      "_JEP5475.JPG",
+      "_JEP5476.JPG",
+      "_JEP5477.JPG",
+      "_JEP5478.JPG",
+      "_JEP5479.JPG",
+      "_JEP5480.JPG",
+      "_JEP5482.JPG",
+      "_JEP5483.JPG",
+      "_JEP5484.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5455.JPG": 1,
+      "_JEP5456.JPG": 1,
+      "_JEP5464.JPG": 1,
+      "_JEP5465.JPG": 1,
+      "_JEP5466.JPG": 1,
+      "_JEP5467.JPG": 1,
+      "_JEP5468.JPG": 1,
+      "_JEP5469.JPG": 1,
+      "_JEP5470.JPG": 1,
+      "_JEP5471.JPG": 1,
+      "_JEP5472.JPG": 1,
+      "_JEP5475.JPG": 1,
+      "_JEP5476.JPG": 1,
+      "_JEP5477.JPG": 1,
+      "_JEP5478.JPG": 1,
+      "_JEP5479.JPG": 1,
+      "_JEP5480.JPG": 1,
+      "_JEP5482.JPG": 1,
+      "_JEP5483.JPG": 1,
+      "_JEP5484.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "148fef9f-087e-4a57-9042-31f46b428ebf",
+    "Name": "Freddy",
+    "Email": null,
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T10:19:11.2752533-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "f3fbfe27-6023-4d9a-941b-7a5829760f17",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T11:54:04.8332888-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "31ee16e6-e8c9-48ca-9adc-c35803ce7d28",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T12:01:02.2472443-04:00",
+    "ApprovedImages": [
+      "_JEP5426.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "3858c13d-cff9-4b28-85cf-6a1e0d9e40b7",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T12:15:16.3804889-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "ddc95d3c-38a9-41ff-9881-2dd814130eeb",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T13:20:39.7009211-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "b9879dc5-f348-4856-b7c8-8c26655d9a93",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T13:22:25.6128525-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "17f32ddc-9f8f-48ed-9eab-c9a19bb21256",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T13:28:37.1956412-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "78e92d5f-a062-4fd5-9a6a-f66675702729",
+    "Name": "cc",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T13:31:57.0058962-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": "https://we.tl/t-QlSAEXWwYy",
+    "IsFinalized": true
+  },
+  {
+    "CustomerID": "79ce07cc-cef5-42f4-973d-ddfaf82c1b7c",
+    "Name": "cc",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T13:55:53.3899625-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": "https://www.youtube.com",
+    "IsFinalized": true
+  },
+  {
+    "CustomerID": "dfd4dace-13af-4411-a7d1-f60be2f691b3",
+    "Name": "cc",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T14:01:57.6489004-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": "youtube.com",
+    "IsFinalized": true
+  },
+  {
+    "CustomerID": "d1672833-544c-4dbf-989b-fe75200790c0",
+    "Name": "ccgould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T14:05:04.779815-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": true
+  },
+  {
+    "CustomerID": "8870145a-0e3c-4720-bed2-e18f73118519",
+    "Name": "Jessa Dames",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-27T17:44:52.8602162-04:00",
+    "ApprovedImages": [
+      "_JEP5425.JPG",
+      "_JEP5426.JPG",
+      "_JEP5427.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "84a9509a-9716-417e-9225-eb5f19d9737b",
+    "Name": "Yolanda Forbes",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T17:52:19.8932918-04:00",
+    "ApprovedImages": [
+      "_JEP5426.JPG",
+      "_JEP5427.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5426.JPG": 1,
+      "_JEP5427.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "8fe06ed6-487a-473e-b8ea-e0e77408b168",
+    "Name": "Bretty?",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T17:56:15.7592678-04:00",
+    "ApprovedImages": [
+      "_JEP5415.JPG"
+    ],
+    "ApprovedPrints": {},
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "53d05041-d086-4b24-8b92-40e3ce3ea649",
+    "Name": "Beth",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "18643415388",
+    "DateTime": "2024-04-27T18:56:31.4339508-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5367.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 5,
+      "_JEP5367.JPG": 1,
+      "_JEP5368.JPG": 1,
+      "_JEP5369.JPG": 1,
+      "_JEP5370.JPG": 1
+    },
+    "DownloadURL": "youtube.com",
+    "IsFinalized": true
+  },
+  {
+    "CustomerID": "79a631df-1a65-4edb-ac51-e2b329405b31",
+    "Name": "Test 1",
+    "Email": "N/A",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-27T23:59:46.2934373-04:00",
+    "ApprovedImages": [
+      "_JEP5415.JPG",
+      "_JEP5416.JPG",
+      "_JEP5417.JPG",
+      "_JEP5418.JPG",
+      "_JEP5419.JPG",
+      "_JEP5420.JPG",
+      "_JEP5421.JPG",
+      "_JEP5422.JPG",
+      "_JEP5423.JPG",
+      "_JEP5425.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5415.JPG": 1,
+      "_JEP5416.JPG": 1,
+      "_JEP5417.JPG": 1,
+      "_JEP5418.JPG": 1,
+      "_JEP5419.JPG": 1,
+      "_JEP5420.JPG": 1,
+      "_JEP5421.JPG": 1,
+      "_JEP5422.JPG": 1,
+      "_JEP5423.JPG": 1,
+      "_JEP5425.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  }
+]

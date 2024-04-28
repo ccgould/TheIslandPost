@@ -1,0 +1,22 @@
+[
+  {
+    "CustomerID": "dbe1dfab-6327-45af-bcdc-1060901d1280",
+    "Name": "Creswell Gould",
+    "Email": null,
+    "PhoneNumber": null,
+    "DateTime": "2024-04-24T20:33:48.8443097-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5367.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG",
+      "_JEP5371.JPG",
+      "_JEP5372.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1,
+      "_JEP5367.JPG": 1
+    }
+  }
+]

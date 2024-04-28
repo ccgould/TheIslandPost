@@ -1,0 +1,132 @@
+﻿<Page x:Class="TheIslandPostManagerWPF.Pages.ImageViewer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TheIslandPostManagerWPF.Pages"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:controls="clr-namespace:TheIslandPostManagerWPF.Controls"
+      xmlns:model="clr-namespace:TheIslandPostManagerWPF.Models"
+      mc:Ignorable="d" 
+      controls:PageControlDocumentation.Show="False"
+      xmlns:converters="clr-namespace:TheIslandPostManagerWPF.Converters"
+      d:DesignHeight="450" d:DesignWidth="800"
+      ScrollViewer.CanContentScroll="False"
+      Title="ImageViewer"
+      Focusable="True">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <converters:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Page.InputBindings>
+        <KeyBinding 
+                    Key="Left"
+                    Command="{Binding ViewModel.PreviousPhotoCommand}" />
+        <KeyBinding 
+                    Key="Right"
+                    Command="{Binding ViewModel.NextPhotoCommand}" />
+    </Page.InputBindings>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ui:TextBlock Grid.Row="0" Text="{Binding ViewModel.Service.SelectedImage.Name}" FontWeight="Bold" FontSize="25" Foreground="White" HorizontalAlignment="Center" Grid.ColumnSpan="3"/>
+
+        <ui:Button ToolTipService.ToolTip="Previous Image" x:Name="prevBtn" Grid.RowSpan="2" Margin="5" Command="{Binding ViewModel.PreviousPhotoCommand}" Click="Reset">
+            <ui:SymbolIcon
+                Grid.Row="0"
+                FontSize="28"
+                Symbol="ArrowLeft12"
+                Foreground="White"
+                Filled="True"/>
+        </ui:Button>
+
+
+        <model:ZoomBorder x:Name="zoomBorder" ClipToBounds="True" Background="Transparent" Grid.Column="1" Grid.Row="1" Height="650">
+            <Grid>
+                <Image Source="{Binding ViewModel.Service.SelectedImage.HDImage}" />
+                <Grid Opacity=".8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2" Grid.ColumnSpan="2" Source="/Assets/correct.png" Visibility="{Binding ViewModel.Service.SelectedImage.IsSelected, Converter={StaticResource BoolToVis}, FallbackValue=Hidden}" Height="50" Width="50" />
+                    <Image Grid.RowSpan="2" Grid.ColumnSpan="2" Source="/Assets/pending.png" Visibility="{Binding ViewModel.Service.SelectedImage.IsPending, Converter={StaticResource BoolToVis}, FallbackValue=Hidden}" Height="50" Width="50"/>
+                    <!--<Image Grid.Row="0" 
+                            Grid.Column="1"  
+                            Source="/Assets/printing.png" Visibility="{Binding ViewModel.Service.SelectedImage.IsPrintable, Converter={StaticResource BoolToVis}, FallbackValue=Hidden}" 
+                            Height="50" 
+                            Width="50" 
+                            Margin="10"/>-->
+                </Grid>
+            </Grid>
+            
+        </model:ZoomBorder>
+
+        <ui:Button ToolTipService.ToolTip="Next Image" x:Name="nextBtn"  Grid.RowSpan="2" Grid.Column="2" Margin="5,5,10,20" Command="{Binding ViewModel.NextPhotoCommand}" Click="Reset">
+            <ui:SymbolIcon
+                Grid.Row="0"
+                FontSize="28"
+                Symbol="ArrowRight12"
+                Foreground="White"
+                Filled="True"/>
+        </ui:Button>
+
+        <Grid Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal" Background="Black" x:Name="buttonView">
+                <ui:Button ToolTipService.ToolTip="Yes" Margin="5" Command="{Binding ViewModel.SelectPhotoCommand}">
+                    <ui:SymbolIcon
+                        Grid.Row="0"
+                        FontSize="28"
+                        Symbol="Emoji24"
+                        Foreground="Green"
+                        Filled="True"/>
+                </ui:Button>
+                <ui:Button ToolTipService.ToolTip="Maybe" Margin="5" Command="{Binding ViewModel.SetAsMaybeCommand}">
+                    <ui:SymbolIcon
+                        Grid.Row="0"
+                        FontSize="28"
+                        Symbol="EmojiMeh24"
+                        Foreground="Orange"
+                        Filled="True"/>
+                </ui:Button>
+                <ui:Button ToolTipService.ToolTip="Toggle as printing" Margin="5" Command="{Binding ViewModel.PrintPhotoCommand}">
+                    <ui:SymbolIcon
+                        Grid.Row="0"
+                        FontSize="28"
+                        Symbol="Print16"
+                        Foreground="{Binding ViewModel.Service.SelectedImage.IsPrintable, Converter={StaticResource BoolToColorConverter}, ConverterParameter=LightGreen;White;1, Mode=OneWay}"
+                        Filled="True"/>
+                </ui:Button>
+                <ui:Button ToolTipService.ToolTip="Delete Image" Margin="5" Appearance="Primary" Command="{Binding ViewModel.DeletePhotoCommand}" CommandParameter="{Binding .}">
+                    <ui:SymbolIcon
+                        Grid.Row="0"
+                        FontSize="28"
+                        Symbol="Delete16"
+                        Foreground="White"
+                        Filled="True"/>
+                </ui:Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>

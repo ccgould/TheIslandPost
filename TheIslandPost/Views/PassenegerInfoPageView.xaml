@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheIslandPost.Views.PassenegerInfoPageView"
+             Title="PassenegerInfoPage"
+             BackgroundColor="#1b1a1b">
+
+    <Grid Margin="10" RowDefinitions="Auto,*,Auto" ColumnDefinitions="500,500" HorizontalOptions="Center">
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontAttributes="Bold" Text="Please provide the required information. Either a phone number or email is required for you to recieve your digital copy." TextColor="White" Margin="0,0,0,30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+        <Image Grid.Column="0" Grid.Row="1" Source="the_island_post_w.png" HeightRequest="300" WidthRequest="300"/>
+
+        <VerticalStackLayout Spacing="25" Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand">
+
+            <VerticalStackLayout>
+                <Label Text="Name:" TextColor="White" FontAttributes="Bold"/>
+                <Entry Placeholder="Full Name" TextColor="White" PlaceholderColor="#50FFFFFF"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <Label Text="Phone Number:" TextColor="White" FontAttributes="Bold"/>
+                <Entry Placeholder="1 (111) 111-1111" TextColor="White" PlaceholderColor="#50FFFFFF" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <Label Text="Email:" TextColor="White" FontAttributes="Bold"/>
+                <Entry Placeholder="johndoe@email.com" TextColor="White" PlaceholderColor="#50FFFFFF" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+
+        <Button Text="Next" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" WidthRequest="300" Margin="0,0,0,20" Command="{Binding GoToFinalizePageCommand}"/>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+"C:\Program Files\IrfanView\i_view64.exe" /filelist="C:\Users\SPV_s\OneDrive\Documents\Field Creators Studios\Visual Studio\TheIslandPost\IslandPostImageProcessing\bin\Debug\net8.0-windows\images.bin" /advancedbatch /convert="C:\Users\SPV_s\OneDrive\Desktop\Temp\*.jpg"

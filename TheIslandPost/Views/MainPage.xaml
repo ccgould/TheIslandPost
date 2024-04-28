@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheIslandPost.Views.MainPage"
+             BackgroundColor="#1b1a1b">
+
+    <Grid RowDefinitions="*, Auto">
+        <VerticalStackLayout
+            VerticalOptions="Center"
+            Padding="30,0"
+            Spacing="100">
+
+            <Image Source="the_island_post_w.png" WidthRequest="150"/>
+
+            <Button
+                Text="Begin" 
+                HorizontalOptions="Fill"
+                WidthRequest="200"
+                Command="{Binding GoHomeCommand}"
+                />
+        </VerticalStackLayout>
+
+        <Label  Grid.Row="1"
+                Text="Version 1.0.0"
+                TextColor="#e5e5e5"
+                FontSize="14"
+                HorizontalOptions="Center"
+                Margin="0,0,0,10"/>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿TheIslandPostManagerWPF
+1.0.511.0
+
+winexe
+C#
+.cs
+C:\Users\SPV_s\OneDrive\Documents\Field Creators Studios\Visual Studio\TheIslandPost\TheIslandPostManagerWPF\obj\Release\net8.0-windows\
+TheIslandPostManagerWPF
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+C:\Users\SPV_s\OneDrive\Documents\Field Creators Studios\Visual Studio\TheIslandPost\TheIslandPostManagerWPF\App.xaml
+15-980718493
+11562050264
+431989712550
+360-1341525288
+Controls\ControlExample.xaml;Controls\PageControlDocumentation.xaml;MainWindow.xaml;Pages\ImageViewer.xaml;Pages\LandingPage.xaml;Themes\Generic.xaml;Views\DashboardPage.xaml;Views\DataPage.xaml;Views\FinalizePageView.xaml;Views\ImageViewerContentDialogPage.xaml;Views\LogsPageView.xaml;Views\OrderCompletionDialog.xaml;Views\OrdersPage.xaml;Views\SettingsPage.xaml;Views\WorkerValidationDialog.xaml;
+
+False
+

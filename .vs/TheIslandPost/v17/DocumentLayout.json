@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\theislandpostmanagerwpf.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\theislandpostmanagerwpf.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\models\\bitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\models\\bitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\theislandpostmanagerwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\theislandpostmanagerwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\viewmodels\\datapageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\viewmodels\\datapageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\models\\imageviewerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\models\\imageviewerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\viewmodels\\orderspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\viewmodels\\orderspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|c:\\users\\spv_s\\onedrive\\documents\\field creators studios\\visual studio\\theislandpost\\theislandpostmanagerwpf\\views\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}|TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj|solutionrelative:theislandpostmanagerwpf\\views\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TheIslandPostManagerWPF",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-28T17:44:24.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheIslandPostManagerWPF",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\TheIslandPostManagerWPF.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-28T17:43:14.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bitmap.cs",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Models\\Bitmap.cs",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\Models\\Bitmap.cs",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Models\\Bitmap.cs",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\Models\\Bitmap.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADwvw4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T17:41:34.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\ViewModels\\DataPageViewModel.cs",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\ViewModels\\DataPageViewModel.cs",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\ViewModels\\DataPageViewModel.cs",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\ViewModels\\DataPageViewModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBwAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:32:32.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageViewerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Models\\ImageViewerViewModel.cs",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\Models\\ImageViewerViewModel.cs",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Models\\ImageViewerViewModel.cs",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\Models\\ImageViewerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:27:59.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Services\\ImageService.cs",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\Services\\ImageService.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAkwAABAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:47:24.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Views\\OrdersPage.xaml",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\Views\\OrdersPage.xaml",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Views\\OrdersPage.xaml",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\Views\\OrdersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T15:03:21.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\ViewModels\\OrdersPageViewModel.cs",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\ViewModels\\OrdersPageViewModel.cs",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\ViewModels\\OrdersPageViewModel.cs",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\ViewModels\\OrdersPageViewModel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwCgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:01:48.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashBoardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\ViewModels\\DashBoardViewModel.cs",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\ViewModels\\DashBoardViewModel.cs",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\ViewModels\\DashBoardViewModel.cs",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\ViewModels\\DashBoardViewModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:45:17.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "TheIslandPostManagerWPF\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\TheIslandPostManagerWPF\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "TheIslandPostManagerWPF\\Views\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T14:44:53.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

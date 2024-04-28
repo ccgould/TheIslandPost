@@ -1,0 +1,46 @@
+[
+  {
+    "CustomerID": "c7fb2dfe-55c7-412c-a2fb-7091a9575025",
+    "Name": "test1",
+    "Email": "n/a",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-28T00:06:19.6155693-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1,
+      "_JEP5368.JPG": 1,
+      "_JEP5369.JPG": 1,
+      "_JEP5370.JPG": 1
+    },
+    "DownloadURL": null,
+    "IsFinalized": false
+  },
+  {
+    "CustomerID": "77b16e4e-197d-4214-acb9-7b6166536efa",
+    "Name": "Creswell Gould",
+    "Email": "ccgould@yahoo.com",
+    "PhoneNumber": "12423415388",
+    "DateTime": "2024-04-28T09:52:18.7648057-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG",
+      "_JEP5368.JPG",
+      "_JEP5369.JPG",
+      "_JEP5370.JPG",
+      "_JEP5371.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1,
+      "_JEP5368.JPG": 1,
+      "_JEP5369.JPG": 1,
+      "_JEP5370.JPG": 1,
+      "_JEP5371.JPG": 1
+    },
+    "DownloadURL": "https://usa.yamaha.com/products/music_production/synthesizers/motif_xf/index.html",
+    "IsFinalized": true
+  }
+]

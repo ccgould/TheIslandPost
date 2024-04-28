@@ -1,0 +1,24 @@
+[
+  {
+    "CustomerID": "3b5d1e5a-26b6-45a1-8ef7-2bb3077c333d",
+    "Name": "nn",
+    "Email": "nn",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T20:31:09.3794481-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {}
+  },
+  {
+    "CustomerID": "93e18bb8-66e3-49f1-9cf3-203148d6d6e8",
+    "Name": "vv",
+    "Email": "vv",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-26T21:38:51.9287859-04:00",
+    "ApprovedImages": [
+      "_JEP5367.JPG"
+    ],
+    "ApprovedPrints": {}
+  }
+]

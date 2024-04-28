@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheIslandPostPhotoManager.MainPage"
+             Shell.NavBarIsVisible="False"
+             x:Name="MyMainPage"
+             Title="Island Post Photo Manager">
+
+
+    <ContentPage.Resources>
+    <Style TargetType="Grid">
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Selected">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor"
+                                        Value="#486597" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="50,50,*" ColumnDefinitions="200,*">
+        <Grid Grid.Row="0" 
+              Grid.Column="0" 
+              Grid.ColumnSpan="2" 
+              BackgroundColor="#324b71">            
+        </Grid>
+
+        <Grid Grid.Row="1" 
+              Grid.Column="1"  
+              BackgroundColor="#223754"
+              ColumnDefinitions="*,Auto">
+
+            <Label Text="Images" VerticalOptions="Center" Margin="10"/>
+            <HorizontalStackLayout Grid.Column="1">
+                <Button x:Name="selectBtn" Text="Select" CornerRadius="0" Margin="5" WidthRequest="150" BackgroundColor="#486597" TextColor="White" FontAttributes="Bold" Command="{Binding SelectCurrentCommand}" Clicked="selectBtn_Clicked"/>
+                <Button Text="Select All" CornerRadius="0" Margin="5" WidthRequest="150" BackgroundColor="#486597" TextColor="White" FontAttributes="Bold" Command="{Binding SelectAllCommand}" Clicked="selectAll_Clicked"/>
+                <Button Text="De-Select All" CornerRadius="0" Margin="5" WidthRequest="150" BackgroundColor="#486597" TextColor="White" FontAttributes="Bold" Command="{Binding DeSelectAllCommand}" Clicked="deSelect_Clicked"/>
+                <Button Text="Upload Photos" CornerRadius="0" Margin="5" WidthRequest="150" BackgroundColor="#486597" TextColor="White" FontAttributes="Bold" Command="{Binding CompleteOrderCommand}"/>
+            </HorizontalStackLayout>
+
+
+        </Grid>
+
+        <Grid Grid.Row="2" 
+              Grid.Column="1" 
+              BackgroundColor="#152439">
+            <CollectionView x:Name="MyColview" ItemsSource="{Binding Service.Images}"
+                            SelectedItem="{Binding Service.SelectedImage}"
+                            SelectionMode="Single"
+                            SelectionChanged="MyColview_SelectionChanged">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                        Span="4" VerticalItemSpacing="5"
+                                     HorizontalItemSpacing="5"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Image
+                                   Source="{Binding ImageUrl}"
+                                   Aspect="AspectFit"
+                                   MaximumHeightRequest="{Binding Height}"
+                                   MaximumWidthRequest="{Binding Width}"
+                                   VerticalOptions="Center"
+                                   Grid.RowSpan="2">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                       Command="{Binding BindingContext.SelectionChangedCommand, Source={x:Reference MyMainPage}}" 
+                                      CommandParameter="{Binding .}" 
+                                      NumberOfTapsRequired="2">
+                                    </TapGestureRecognizer>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            
+                            <Image Source="correct.png" 
+                                   Aspect="AspectFit" 
+                                   HeightRequest="50" 
+                                   WidthRequest="50" 
+                                   Opacity=".8" 
+                                   IsVisible="{Binding IsSelected}" 
+                                   VerticalOptions="Center"
+                                   Grid.RowSpan="2"/>
+
+                            <Image Source="pending.png" 
+                                   Aspect="AspectFit" 
+                                   HeightRequest="50" 
+                                   WidthRequest="50" 
+                                   Opacity=".8" 
+                                   IsVisible="{Binding IsPending}" 
+                                   VerticalOptions="Center"
+                                   Grid.RowSpan="2"
+                                   />
+
+                            <Image Source="printing.png"
+                                   Grid.Row="0"
+                                   Aspect="AspectFit" 
+                                   HeightRequest="30" 
+                                   WidthRequest="30" 
+                                   Opacity=".8" 
+                                   IsVisible="{Binding IsPrintable}" 
+                                   HorizontalOptions="End"
+                                   Margin="10"
+                                   />
+
+                            <Label Grid.Row="2"
+                       Text="{Binding Name}"
+                       FontAttributes="Bold"
+                       LineBreakMode="TailTruncation"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Start"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </Grid>
+</ContentPage>

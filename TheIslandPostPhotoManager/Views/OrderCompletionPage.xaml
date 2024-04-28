@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheIslandPostPhotoManager.Views.OrderCompletionPage"
+             xmlns:dataForm="clr-namespace:Syncfusion.Maui.DataForm;assembly=Syncfusion.Maui.DataForm"
+             Title="Order Page">
+    
+    <Grid RowDefinitions="Auto,*" ColumnDefinitions="*,*">
+        <Button Grid.Row="0" Grid.Column="0" Text="BACK" TextColor="White" FontAttributes="Bold" CornerRadius="0" Margin="5" WidthRequest="100" HorizontalOptions="Start" Command="{Binding GoBackCommand}"/>
+        <Label Text="Customer Information" FontAttributes="Bold" Grid.Column="1" FontSize="40"/>
+
+
+        <CollectionView ItemsSource="{Binding OrderImages}" Grid.Column="0" Grid.Row="1">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                        Span="4" VerticalItemSpacing="5"
+                                     HorizontalItemSpacing="5"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Image
+                                   Source="{Binding ImageUrl}"
+                                   Aspect="AspectFit"
+                                   MaximumHeightRequest="{Binding Height}"
+                                   MaximumWidthRequest="{Binding Width}"
+                                   VerticalOptions="Center">
+                        </Image>
+
+                        <!--<Image Source="correct.png" 
+                                   Aspect="AspectFit" 
+                                   HeightRequest="50" 
+                                   WidthRequest="50" 
+                                   Opacity=".8" 
+                                   IsVisible="{Binding IsSelected}" 
+                                   VerticalOptions="Center"/>-->
+
+                        <Label Grid.Row="1"
+                       Text="{Binding Name}"
+                       FontAttributes="Bold"
+                       LineBreakMode="TailTruncation"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Start"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Grid Grid.Column="1" Grid.Row="1" RowDefinitions="*,Auto" Margin="0,0,0,10">
+            <dataForm:SfDataForm x:Name="dataForm" Grid.Row="0" DataObject="{Binding Order}" CommitMode="PropertyChanged"/>
+            <Button Text="DONE" Grid.Column="1" Grid.Row="1" WidthRequest="200" Margin="0,0,0,60" TextColor="White" Command="{Binding DoneCommand}"/>
+        </Grid>
+
+        <!--<VerticalStackLayout Grid.Column="1" Grid.Row="1">
+            
+            <Grid ColumnDefinitions="Auto,*">
+                <Label Text="Name"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+            
+            <Grid ColumnDefinitions="Auto,*">
+                <Label Text="Number"/>
+                <Entry Keyboard="Numeric" Grid.Column="1"/>
+            </Grid>
+            
+            <Grid ColumnDefinitions="Auto,*">
+                <Label Text="Email"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+
+
+
+        </VerticalStackLayout>-->
+    </Grid>
+</ContentPage>

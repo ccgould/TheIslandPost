@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheIslandPost.Views.HomePageView"
+             xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             Title="HomePageView"
+             BackgroundColor="#1b1a1b">
+
+    <Grid ColumnDefinitions="Auto, *">
+        
+        <Grid Grid.Column="0"
+              BackgroundColor="#2a282a"
+              RowDefinitions="Auto,*,Auto">
+
+            <Image Source="the_island_post_w.png" WidthRequest="80" Margin="0,10"/>
+
+            <VerticalStackLayout Grid.Row="1" Margin="10" Spacing="10">
+                <editors:SfComboBox x:Name="comboBox" 
+                    DisplayMemberPath = "Name"
+                    TextMemberPath = "Name"
+                    WidthRequest="200"
+                    ItemsSource="{Binding SystemDrives}"/>
+                <Button Text="Import"/>
+            </VerticalStackLayout>
+
+            <Label  Grid.Row="2"
+                Text="Version 1.0.0"
+                TextColor="#e5e5e5"
+                FontSize="14"
+                HorizontalOptions="Center"
+                Margin="0,0,0,10"/>
+
+        </Grid>
+
+        <Grid Grid.Column="1" Margin="10" RowDefinitions="Auto,*,Auto">
+
+            <Label Grid.Row="0" 
+                   TextColor="White" 
+                   Text="Please select the photos you would like to purchase."
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+            <CollectionView VerticalOptions="Center" 
+                            ItemsLayout="VerticalGrid,4" 
+                            SelectionMode="Multiple"
+                            Grid.Row="1">
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>"Item1"</x:String>
+                        <x:String>"Item1"</x:String>
+                        <x:String>"Item1"</x:String>
+                        <x:String>"Item1"</x:String>
+                        <x:String>"Item1"</x:String>
+                        <x:String>"Item1"</x:String>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Frame BackgroundColor="#0d0d0d" BorderColor="Grey">
+                            <Grid RowDefinitions="*,Auto"
+                              HeightRequest="300"
+                              WidthRequest="300">
+                                <Grid>
+                                    <Image Source="dotnet_bot.png" 
+                                           VerticalOptions="CenterAndExpand" 
+                                           HorizontalOptions="CenterAndExpand"
+                                            />
+                                    <Label Grid.Row="1"
+                                   Text="1"
+                                       TextColor="White"
+                                       FontSize="50"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center"
+                                       FontAttributes="Bold"
+                                       Opacity=".8"
+                                       />
+                                </Grid>
+
+                                <Label Grid.Row="1"
+                                   Text="249583902.jpg"
+                                   HorizontalTextAlignment="Center"
+                                   TextColor="White"/>
+                            </Grid>
+                        </Frame>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.EmptyView>
+                    <ContentView>
+                        <StackLayout HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
+                            <Label Text="No pictures to display."
+                           Margin="10,25,10,10"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Center" 
+                           TextColor="White"/>
+                            <Label Text="Please select a drive from the list on the left panel."
+                           FontAttributes="Italic"
+                           FontSize="12"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Center" 
+                           TextColor="White"/>
+                        </StackLayout>
+                    </ContentView>
+                </CollectionView.EmptyView>
+            </CollectionView>
+
+            <HorizontalStackLayout Grid.Row="2" Spacing="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Button Text="DONE" WidthRequest="150" Command="{Binding GoToPassengerInfoCommand}"/>
+                <Button Text="DESELECT ALL" WidthRequest="150" BackgroundColor="Red" Command="{Binding DeselectAllCommand}"/>
+            </HorizontalStackLayout>
+
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "QeHkT11kv9/DrKUAdcjVjijpon3mS5d/3lGKs2r9Qr+JmYU+wr3VDLf7nqTln74i2sddLRJvDQIWbBMqPAGQpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SPV_s\\OneDrive\\Documents\\Field Creators Studios\\Visual Studio\\TheIslandPost\\IslandPostPOS\\IslandPostPOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SPV_s\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.compression.base\\24.2.9\\syncfusion.compression.base.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.core.winforms\\24.2.9\\syncfusion.core.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.data.winforms\\24.2.9\\syncfusion.data.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.datagridexport.winforms\\24.2.9\\syncfusion.datagridexport.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.datasource.winforms\\24.2.9\\syncfusion.datasource.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.grid.grouping.windows\\24.2.9\\syncfusion.grid.grouping.windows.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.grid.windows\\24.2.9\\syncfusion.grid.windows.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.gridcommon.winforms\\24.2.9\\syncfusion.gridcommon.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.gridexport.winforms\\24.2.9\\syncfusion.gridexport.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.grouping.base\\24.2.9\\syncfusion.grouping.base.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.licensing\\24.2.9\\syncfusion.licensing.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.pdf.winforms\\24.2.9\\syncfusion.pdf.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.sfdatagrid.winforms\\24.2.9\\syncfusion.sfdatagrid.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.sfinput.winforms\\24.2.9\\syncfusion.sfinput.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.sflistview.winforms\\24.2.9\\syncfusion.sflistview.winforms.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.shared.base\\24.2.9\\syncfusion.shared.base.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.shared.windows\\24.2.9\\syncfusion.shared.windows.24.2.9.nupkg.sha512",
+    "C:\\Users\\SPV_s\\.nuget\\packages\\syncfusion.xlsio.winforms\\24.2.9\\syncfusion.xlsio.winforms.24.2.9.nupkg.sha512"
+  ],
+  "logs": []
+}

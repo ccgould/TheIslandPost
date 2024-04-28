@@ -1,0 +1,16 @@
+{
+  "CurrentPurchases": [],
+  "CurrentTransaction": [
+    {
+      "Name": "fff",
+      "Email": "",
+      "PhoneNumber": "12423415388",
+      "PictureAmount": 0,
+      "VideoAmount": 0,
+      "Tip": 0.0,
+      "PaymentType": 1,
+      "CashTotal": "$0",
+      "DateTime": "2024-03-19T09:27:22.5977097-04:00"
+    }
+  ]
+}

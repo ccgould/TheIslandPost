@@ -1,0 +1,18 @@
+{
+  "CurrentPurchases": [],
+  "CurrentTransaction": [
+    {
+      "Name": "Creswell Gould",
+      "Email": "ccgould@yahoo.com",
+      "PhoneNumber": "12423415388",
+      "PictureAmount": 2,
+      "VideoAmount": 0,
+      "Tip": 0.0,
+      "PaymentType": 1,
+      "CashTotal": "$10",
+      "DateTime": "2024-04-01T07:25:56.6210116-04:00",
+      "Notes": null,
+      "CashTotalInt": 10
+    }
+  ]
+}

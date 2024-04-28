@@ -1,0 +1,36 @@
+[
+  {
+    "CustomerID": "77d7ed4d-0214-408b-b667-8bfbed77f24e",
+    "Name": "Cressy Walik",
+    "Email": "ccwalik@gmail.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-22T07:04:33.335321-04:00",
+    "ApprovedImages": [
+      "_JEP5366.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5366.JPG": 1
+    }
+  },
+  {
+    "CustomerID": "8f76cba0-4fc4-470c-90d0-a70dde5f1c3c",
+    "Name": "Inari Gould",
+    "Email": "inar2@gmail.com",
+    "PhoneNumber": null,
+    "DateTime": "2024-04-22T07:11:43.3911468-04:00",
+    "ApprovedImages": [
+      "_JEP5375.JPG",
+      "_JEP5376.JPG",
+      "_JEP5377.JPG",
+      "_JEP5378.JPG",
+      "_JEP5379.JPG"
+    ],
+    "ApprovedPrints": {
+      "_JEP5375.JPG": 1,
+      "_JEP5376.JPG": 1,
+      "_JEP5377.JPG": 1,
+      "_JEP5378.JPG": 1,
+      "_JEP5379.JPG": 1
+    }
+  }
+]

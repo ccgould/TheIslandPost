@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheIslandPost", "TheIslandPost\TheIslandPost.csproj", "{1746664B-EFFE-4262-81F1-773BD3187B95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IslandPostPOS", "IslandPostPOS\IslandPostPOS.csproj", "{6050F148-666B-439B-94F4-FB82238FAF24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DavinciHelper", "DavinciHelper\DavinciHelper.csproj", "{080FC153-31BC-4D88-889A-D7B8BC3DA771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IslandPostImageProcessing", "IslandPostImageProcessing\IslandPostImageProcessing.csproj", "{C39F0BED-31E1-4C33-858A-D0C5A825D341}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IslandPostCustomerInfo", "IslandPostCustomerInfo\IslandPostCustomerInfo.csproj", "{C939C99B-CDFB-4B1B-9C38-140D2A884748}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheIslandPostPhotoManager", "TheIslandPostPhotoManager\TheIslandPostPhotoManager.csproj", "{F5C0306E-1F7F-4FF8-B877-DED5679634C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheIslandPostManagerWPF", "TheIslandPostManagerWPF\TheIslandPostManagerWPF.csproj", "{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1746664B-EFFE-4262-81F1-773BD3187B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1746664B-EFFE-4262-81F1-773BD3187B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1746664B-EFFE-4262-81F1-773BD3187B95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1746664B-EFFE-4262-81F1-773BD3187B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1746664B-EFFE-4262-81F1-773BD3187B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1746664B-EFFE-4262-81F1-773BD3187B95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6050F148-666B-439B-94F4-FB82238FAF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6050F148-666B-439B-94F4-FB82238FAF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6050F148-666B-439B-94F4-FB82238FAF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6050F148-666B-439B-94F4-FB82238FAF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080FC153-31BC-4D88-889A-D7B8BC3DA771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080FC153-31BC-4D88-889A-D7B8BC3DA771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080FC153-31BC-4D88-889A-D7B8BC3DA771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080FC153-31BC-4D88-889A-D7B8BC3DA771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39F0BED-31E1-4C33-858A-D0C5A825D341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39F0BED-31E1-4C33-858A-D0C5A825D341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39F0BED-31E1-4C33-858A-D0C5A825D341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39F0BED-31E1-4C33-858A-D0C5A825D341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C939C99B-CDFB-4B1B-9C38-140D2A884748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C939C99B-CDFB-4B1B-9C38-140D2A884748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C939C99B-CDFB-4B1B-9C38-140D2A884748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C939C99B-CDFB-4B1B-9C38-140D2A884748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C0306E-1F7F-4FF8-B877-DED5679634C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C0306E-1F7F-4FF8-B877-DED5679634C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C0306E-1F7F-4FF8-B877-DED5679634C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5C0306E-1F7F-4FF8-B877-DED5679634C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C0306E-1F7F-4FF8-B877-DED5679634C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C0306E-1F7F-4FF8-B877-DED5679634C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520C92D3-4F4B-4509-B9BD-A4FC2148E17A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0971DDE3-7115-4CE4-B53D-01AC45F8F066}
+	EndGlobalSection
+EndGlobal

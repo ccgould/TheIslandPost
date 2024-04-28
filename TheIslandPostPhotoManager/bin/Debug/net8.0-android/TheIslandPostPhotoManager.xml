@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TheIslandPostPhotoManager</name>
+    </assembly>
+    <members>
+        <member name="T:TheIslandPostPhotoManager.ViewModels.ImageObj">
+            <inheritdoc/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageObj.IsSelected">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.ViewModels.ImageObj.isSelected"/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageObj.IsPending">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.ViewModels.ImageObj.isPending"/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageObj.IsPrintable">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.ViewModels.ImageObj.isPrintable"/>
+        </member>
+        <member name="T:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.Service">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.service"/>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.selectPhotoCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.SelectPhotoCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.SelectPhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.SelectPhoto"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.deSelectPhotoCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.DeSelectPhotoCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.DeSelectPhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.DeSelectPhoto"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.previousPhotoCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.PreviousPhotoCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.PreviousPhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.PreviousPhoto"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.nextPhotoCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.NextPhotoCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.NextPhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.NextPhoto"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.ImageViewerPageViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:TheIslandPostPhotoManager.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.Service">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.service"/>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.selectionChangedCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectionChangedCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectionChangedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectionChanged(System.Object)"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.completeOrderCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.CompleteOrderCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.CompleteOrderCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.CompleteOrder"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.selectCurrentCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectCurrentCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectCurrentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectCurrent"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.selectAllCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectAllCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectAllCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.SelectAll"/>.</summary>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.deSelectAllCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.DeSelectAllCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.DeSelectAllCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.MainPageViewModel.DeSelectAll"/>.</summary>
+        </member>
+        <member name="T:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel.Order">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel.order"/>
+        </member>
+        <member name="F:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel.doneCommand">
+            <summary>The backing field for <see cref="P:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel.DoneCommand"/>.</summary>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel.DoneCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TheIslandPostPhotoManager.ViewModels.OrderCompletionPageViewModel.Done"/>.</summary>
+        </member>
+        <member name="T:TheIslandPostPhotoManager.Services.ImageService">
+            <inheritdoc/>
+        </member>
+        <member name="P:TheIslandPostPhotoManager.Services.ImageService.SelectedImage">
+            <inheritdoc cref="F:TheIslandPostPhotoManager.Services.ImageService.selectedImage"/>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPending">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPending" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPrintable">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPrintable" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Service">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Service" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Order">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Order" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPending">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPending" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPrintable">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPrintable" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Service">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Service" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Order">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Order" generated properties.</summary>
+        </member>
+    </members>
+</doc>
