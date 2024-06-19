@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\SPV_s\OneDrive\Documents\Field Creators Studios\Visual Studio\TheIslandPost\TheIslandPostManagerWPF\App.xaml
-15-980718493
+201223011383
 11562050264
-46797346451
-360-1341525288
-Controls\ControlExample.xaml;Controls\PageControlDocumentation.xaml;MainWindow.xaml;Pages\ImageViewer.xaml;Pages\LandingPage.xaml;Themes\Generic.xaml;Views\DashboardPage.xaml;Views\DataPage.xaml;Views\FinalizePageView.xaml;Views\ImageViewerContentDialogPage.xaml;Views\LogsPageView.xaml;Views\OrderCompletionDialog.xaml;Views\OrdersPage.xaml;Views\SettingsPage.xaml;Views\WorkerValidationDialog.xaml;
+731442377306
+367-279395334
+Controls\ControlExample.xaml;Controls\LedgendViewControle.xaml;Controls\PageControlDocumentation.xaml;CustomerViewWindow.xaml;MainWindow.xaml;Pages\ImageViewer.xaml;Pages\LandingPage.xaml;Themes\Generic.xaml;Views\BackupPageView.xaml;Views\DashboardPage.xaml;Views\DataPage.xaml;Views\FinalizeDialog.xaml;Views\FinalizePageView.xaml;Views\ImageViewerContentDialogPage.xaml;Views\LogsPageView.xaml;Views\OrderCompletionDialog.xaml;Views\OrdersPage.xaml;Views\PendingOrdersPageView.xaml;Views\SettingsPage.xaml;Views\WorkerValidationDialog.xaml;
 
 True
 

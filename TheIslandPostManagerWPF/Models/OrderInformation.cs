@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using FluentEmail.Core.Models;
 using System.ComponentModel.DataAnnotations;
-using TheIslandPostManagerWPF.Enumerator;
 
 namespace TheIslandPostManagerWPF.Models;
 public partial class OrderInformation : ObservableObject
@@ -8,7 +8,7 @@ public partial class OrderInformation : ObservableObject
     [ObservableProperty] private string downloadURL;
 
     [Display(Name = "Customer ID", AutoGenerateField = false)]
-    public string CustomerID { get; set; }
+    public string CustomerID { get; set; } = Guid.NewGuid().ToString(); 
 
     public string Name { get; set; }
 
@@ -19,11 +19,10 @@ public partial class OrderInformation : ObservableObject
 
     [Display(Name = "Date/Time", AutoGenerateField = false)]
     public DateTime DateTime { get; set; }
+    public List<Address> CC { get; set; }
 
-    [Display(AutoGenerateField = false)]
-    public List<string> ApprovedImages { get; set; } = new();
-    
-    public Dictionary<string, int> ApprovedPrints { get; set; } = new();
+    [ObservableProperty] private List<OrderImageSelectionData> approvedImages = new();
+    [ObservableProperty] private List<OrderImageSelectionData> approvedPrints = new();
 
     [ObservableProperty] private bool isFinalized;
 }

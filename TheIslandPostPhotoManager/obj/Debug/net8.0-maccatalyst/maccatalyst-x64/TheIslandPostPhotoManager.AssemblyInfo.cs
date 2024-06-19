@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheIslandPostPhotoManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.174.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8603bed1acbb05004072472f73b79dd0e9bd326c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheIslandPostPhotoManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheIslandPostPhotoManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.174.0")]

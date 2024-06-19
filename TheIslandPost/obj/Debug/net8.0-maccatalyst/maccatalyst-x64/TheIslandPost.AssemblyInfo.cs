@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheIslandPost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.28.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8603bed1acbb05004072472f73b79dd0e9bd326c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheIslandPost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheIslandPost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.28.0")]
